@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<form
+  className="row"
+  onSubmit={[Function]}
+>
+  <div
+    className="header col-8"
+  >
+    Favourite
+  </div>
+  <div
+    className="col d-flex"
+  >
+    <input
+      className="form-control mt-auto"
+      onChange={[Function]}
+      placeholder="Add new city"
+      value=""
+    />
+  </div>
+  <div
+    className="d-flex"
+  >
+    <button
+      className="btn btn-circle btn-secondary mt-auto"
+      type="submit"
+    >
+      +
+    </button>
+  </div>
+</form>
+`;

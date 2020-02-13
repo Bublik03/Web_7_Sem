@@ -1,0 +1,37 @@
+$font: fantasy, serif
+$font_size: 15pt
+$error_font: railway, serif
+$error_color: red
+$light_green: #4CAF50
+$ok_color: #98FB98 
+$backcolor: #FFDAB9
+
+body
+  background-color: $backcolor
+
+table
+  border-collapse: collapse
+
+th, td 
+  border: 1px solid grey
+  padding: 10px 15px
+
+.submit-button
+  height: 30px
+  width: 25%
+  border-radius: 3px
+  background-color: $light_green
+  color: white
+  font-family: $font
+  font-size: $font_size
+  transition: 0.4s
+  cursor: pointer
+
+  &:hover
+    background-color: black
+    color: #006400
+    border: 2px solid #4CAF50
+
+.error
+  font-family: $error_font
+  color: $error_color

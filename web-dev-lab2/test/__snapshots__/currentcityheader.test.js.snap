@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="col-6"
+>
+  <div
+    className="title"
+  >
+    a
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-6"
+    >
+      <img
+        alt="icon"
+        src="a"
+        width="100px"
+      />
+    </div>
+    <div
+      className="col-6 temp"
+    >
+      5 C
+    </div>
+  </div>
+</div>
+`;

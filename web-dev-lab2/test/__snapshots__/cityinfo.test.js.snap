@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="info-row m-1 d-flex"
+  >
+    <span>
+      Wind: 
+    </span>
+    <span
+      className="ml-auto"
+    >
+      a
+    </span>
+  </div>
+  <div
+    className="info-row m-1 d-flex"
+  >
+    <span>
+      Clouds: 
+    </span>
+    <span
+      className="ml-auto"
+    >
+      a
+    </span>
+  </div>
+  <div
+    className="info-row m-1 d-flex"
+  >
+    <span>
+      Pressure: 
+    </span>
+    <span
+      className="ml-auto"
+    >
+      a
+    </span>
+  </div>
+  <div
+    className="info-row m-1 d-flex"
+  >
+    <span>
+      Humidity: 
+    </span>
+    <span
+      className="ml-auto"
+    >
+      a
+    </span>
+  </div>
+  <div
+    className="info-row m-1 d-flex"
+  >
+    <span>
+      Coordinates: 
+    </span>
+    <span
+      className="ml-auto"
+    />
+  </div>
+</div>
+`;

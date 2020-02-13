@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="d-flex flex-row align-items-center"
+  >
+    <FavoriteCityHeader
+      data={
+        Object {
+          "iconLink": "a",
+          "name": "a",
+          "temp": "a",
+        }
+      }
+      download={false}
+      error={false}
+      name="a"
+    />
+    <div
+      className="ml-auto"
+    >
+      <button
+        className="btn btn-circle btn-secondary"
+        onClick={[Function]}
+      >
+        ↺
+      </button>
+      <button
+        className="btn btn-circle btn-secondary"
+        onClick={[Function]}
+      >
+        X
+      </button>
+    </div>
+  </div>
+  <CityInfo
+    data={
+      Object {
+        "clouds": "a",
+        "humidity": "a",
+        "pressure": "a",
+        "wind": "a",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<div>
+  <div
+    className="d-flex flex-row align-items-center"
+  >
+    <FavoriteCityHeader
+      download={true}
+      error={true}
+    />
+    <div
+      className="ml-auto"
+    >
+      <button
+        className="btn btn-circle btn-secondary"
+        onClick={[Function]}
+      >
+        ↺
+      </button>
+      <button
+        className="btn btn-circle btn-secondary"
+        onClick={[Function]}
+      >
+        X
+      </button>
+    </div>
+  </div>
+  <div
+    className="title-sm text-secondary ml-5"
+  >
+    Oops..
+  </div>
+</div>
+`;
+
+exports[`renders correctly 3`] = `
+<div>
+  <div
+    className="d-flex flex-row align-items-center"
+  >
+    <FavoriteCityHeader
+      download={true}
+      error={false}
+    />
+    <div
+      className="ml-auto"
+    >
+      <button
+        className="btn btn-circle btn-secondary"
+        onClick={[Function]}
+      >
+        ↺
+      </button>
+      <button
+        className="btn btn-circle btn-secondary"
+        onClick={[Function]}
+      >
+        X
+      </button>
+    </div>
+  </div>
+  <div>
+    <span
+      className="spinner-border text-secondary ml-5 m-1 spin"
+    />
+  </div>
+</div>
+`;

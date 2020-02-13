@@ -1,0 +1,23 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha-chrome index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "mocha-chrome": "^2.2.0",
+    "sinon": "^7.5.0"
+  },
+  "dependencies": {
+    "sass": "^1.25.0"
+  }
+}

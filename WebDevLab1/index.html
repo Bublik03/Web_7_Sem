@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script type="text/javascript" src="dot.min.js"></script>
+    <script id="weatherTemplate" type="text/x-dot-template">
+            <h1>Weather in city {{=it.city}}</h1>
+            <table>
+                <tr>
+                    <td>Temperature</td>
+                    <td>Min temperature</td>
+                    <td>Max temperature</td>
+                    <td>Wind Speed</td>
+                    <td>Sky status</td>
+                    <td>Pressure</td>
+                    <td>Humidity</td>
+                </tr>
+                <tr>
+                    <td>{{=it.temp}} ˚C</td>
+                    <td>{{=it.minTemp}} ˚C</td>
+                    <td>{{=it.maxTemp}} ˚C</td>
+                    <td>{{=it.windSpeed}} m/s</td>
+                    <td>{{=it.sky}}</td>
+                    <td>{{=it.pressure}} hPa</td>
+                    <td>{{=it.humidity}}%</td>
+                </tr>
+            </table>
+    </script>
+    <script id="cityNotFoundTemplate" type="text/x-dot-template">
+        <div class="error">
+            <h1>City {{=it.city}} is not found</h1>
+        </div>
+    </script>
+    <script id="errorTemplate" type="text/x-dot-template">
+        <div class="error">
+            <h1>An error has occured</h1>
+            <p>Code: {{=it.errorCode}}</p>
+            <p>Text: {{=it.errorText}}</p>
+        </div>
+    </script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="./node_modules/mocha/mocha.js"></script>
+    <script src="./node_modules/chai/chai.js"></script>
+    <script src="./node_modules/sinon/pkg/sinon.js"></script>
+</head>
+<body>
+<form onsubmit="handleSubmit(event);">
+    <h1>Введите название города</h1>
+    <input id="city" type="text">
+    <input class="submit-button" type="submit">
+</form>
+<div id="weather"></div>
+</body>
+<script type="text/javascript" src="mock/weather.js"></script>
+<script type="text/javascript" src="test/test.js"></script>
+</html>

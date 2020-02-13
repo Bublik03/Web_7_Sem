@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Fragment>
+  <span
+    className="title-sm"
+  >
+    a
+  </span>
+  <span
+    className="p-2 ml-auto mini-temp"
+  >
+    a
+  </span>
+  <img
+    alt="icon"
+    className="p-2 ml-auto"
+    src="a"
+  />
+</Fragment>
+`;
+
+exports[`renders correctly 2`] = `
+<Fragment>
+  <span
+    className="title-sm"
+  />
+</Fragment>
+`;
+
+exports[`renders correctly 3`] = `
+<Fragment>
+  <span
+    className="title-sm"
+  />
+</Fragment>
+`;

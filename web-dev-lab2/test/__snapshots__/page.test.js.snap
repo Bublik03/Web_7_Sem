@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="ml-5 mr-5 mt-3 mb-3"
+>
+  <Current />
+  <Favorite />
+</div>
+`;

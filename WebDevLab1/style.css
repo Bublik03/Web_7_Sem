@@ -1,0 +1,36 @@
+body {
+  background-color: #FFDAB9;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid grey;
+  padding: 10px 15px;
+}
+
+.submit-button {
+  height: 30px;
+  width: 25%;
+  border-radius: 3px;
+  background-color: #4CAF50;
+  color: white;
+  font-family: fantasy, serif;
+  font-size: 15pt;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: black;
+  color: #006400;
+  border: 2px solid #4CAF50;
+}
+
+.error {
+  font-family: railway, serif;
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="row "
+  >
+    <div
+      className="header col-5"
+    >
+      Weather here
+    </div>
+    <div
+      className="col-7"
+    >
+      <button
+        className="btn btn-secondary "
+        onClick={[Function]}
+      >
+        Update geolocation
+      </button>
+    </div>
+  </div>
+  <CurrentCity
+    position={
+      Object {
+        "latitude": 55.75,
+        "longitude": 37.62,
+      }
+    }
+  />
+</div>
+`;
